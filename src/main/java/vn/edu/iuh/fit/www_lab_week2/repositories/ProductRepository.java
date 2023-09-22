@@ -12,7 +12,7 @@ public class ProductRepository {
 
     public ProductRepository() {
         em = Persistence
-                .createEntityManagerFactory("lab_week_2")
+                .createEntityManagerFactory("WWW_Lab_Week2")
                 .createEntityManager();
     }
 
