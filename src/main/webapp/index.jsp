@@ -22,11 +22,11 @@
     out.print(emp);*/
 
     ProductRepository productRepository = new ProductRepository();
-    Product product = new Product("xoai", "xoai ngot", "kg", "ba dua", ProductStatus.ACTIVE);
+    Product product = new Product("abc", "xyz", "aa", "bbb", ProductStatus.ACTIVE);
 
     ProductImage productImage = new ProductImage();
-    productImage.setAlternative("xxx xxx");
-    productImage.setPath("/images/zzz.jpg");
+    productImage.setAlternative("aaa");
+    productImage.setPath("/images/aaa.jpg");
 
     product.getProductImageList().add(productImage);
 
