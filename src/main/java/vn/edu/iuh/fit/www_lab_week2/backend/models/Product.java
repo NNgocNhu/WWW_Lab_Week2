@@ -1,9 +1,9 @@
-package vn.edu.iuh.fit.www_lab_week2.models;
+package vn.edu.iuh.fit.www_lab_week2.backend.models;
 
 
 
 import jakarta.persistence.*;
-import vn.edu.iuh.fit.www_lab_week2.enums.ProductStatus;
+import vn.edu.iuh.fit.www_lab_week2.backend.enums.ProductStatus;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,9 +11,9 @@ import java.util.List;
 @Entity
 @Table(name = "product")
 @NamedQueries(value = {
-        @NamedQuery(name = "Product.findAll", query = "select p from Product p where p.status = 1"),
-        @NamedQuery(name = "Product.findById", query = "select p from Product p where p.product_id = 1")
-        //,...1
+        @NamedQuery(name = "Product.findAll", query = "select p from Product p where p.status = ?1"),
+        @NamedQuery(name = "Product.findById", query = "select p from Product p where p.product_id = ?1")
+
 })
 public class Product {
     @Id

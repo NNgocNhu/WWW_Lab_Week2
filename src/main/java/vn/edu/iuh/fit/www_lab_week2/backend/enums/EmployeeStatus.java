@@ -1,4 +1,4 @@
-package vn.edu.iuh.fit.www_lab_week2.enums;
+package vn.edu.iuh.fit.www_lab_week2.backend.enums;
 
 
 public enum EmployeeStatus {
@@ -15,4 +15,3 @@ public enum EmployeeStatus {
         return value;
     }
 }
-

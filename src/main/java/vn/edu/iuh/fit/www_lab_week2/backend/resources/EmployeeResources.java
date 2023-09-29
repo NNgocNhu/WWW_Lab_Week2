@@ -1,10 +1,10 @@
-package vn.edu.iuh.fit.www_lab_week2.resources;
+package vn.edu.iuh.fit.www_lab_week2.backend.resources;
 
 
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.Response;
-import vn.edu.iuh.fit.www_lab_week2.models.Employee;
-import vn.edu.iuh.fit.www_lab_week2.services.EmployeeServices;
+import vn.edu.iuh.fit.www_lab_week2.backend.services.EmployeeServices;
+import vn.edu.iuh.fit.www_lab_week2.backend.models.Employee;
 
 import java.util.List;
 import java.util.Optional;

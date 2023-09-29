@@ -1,4 +1,4 @@
-package vn.edu.iuh.fit.www_lab_week2.models;
+package vn.edu.iuh.fit.www_lab_week2.backend.models;
 
 
 
